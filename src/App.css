@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #4338ca;
+}
+
+button {
+  padding: 10px 18px;
+  background: #4338ca;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img {
+  margin-top: 10px;
+  object-fit: contain;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+}
+
+th {
+  background: #4338ca;
+  color: white;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+
+  div {
+    overflow-x: auto;
+  }
+}
